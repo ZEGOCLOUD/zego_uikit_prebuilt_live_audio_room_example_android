@@ -8,7 +8,7 @@
 And it includes the business logic along with the UI, enabling you to customize your live audio apps faster with more flexibility. 
 
 
-<img src="https://doc.oa.zego.im/Pics/ZegoUIKit/Flutter/audio_room/final_sublist.gif" >
+<img src="https://storage.zego.im/sdk-doc/Pics/ZegoUIKit/Flutter/audio_room/final_sublist.gif" >
 
 
 ## When do you need the Live Audio Room Kit
@@ -41,6 +41,17 @@ To build a live audio app from scratch, you may check our [Voice Call](https://d
 - Customizable UI style
 - Real-time interactive text chat
 
+# Quick start 
+
+- - -
+
+## Prerequisites
+
+- Go to [ZEGOCLOUD Admin Console](https://console.zegocloud.com), and do the following:
+  - Create a project, get the **AppID** and **AppSign**.
+  - Activate the **In-app Chat** service (as shown in the following figure).
+
+![ActivateZIMinConsole](https://storage.zego.im/sdk-doc/Pics/InappChat/ActivateZIMinConsole2.png)
 
 ## Integrate the SDK
 
@@ -100,7 +111,7 @@ dependencies {
 With the same `roomID`, only one user can enter the live audio room as host. Other users need to enter the live audio room as the audience.
 
 ```java
-public class LiveActivity extends AppCompatActivity {
+public class LiveAudioRoomActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -135,7 +146,7 @@ public class LiveActivity extends AppCompatActivity {
 }
 ```
 
-Then, you can create a live audio room by starting your `LiveActivity`.
+Then, you can create a live audio room by starting your `LiveAudioRoomActivity`.
 
 ## Related guide
 [Custom Prebuilt UI](https://docs.zegocloud.com/article/15082)
