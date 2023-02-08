@@ -37,5 +37,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
-    implementation 'com.github.ZEGOCLOUD:zego_uikit_prebuilt_live_audio_room_android:latest.release'
+    implementation 'com.github.ZEGOCLOUD:zego_uikit_prebuilt_live_audio_room_android:+'
 }
