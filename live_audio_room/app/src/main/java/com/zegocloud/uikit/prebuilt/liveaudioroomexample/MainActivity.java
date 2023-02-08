@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         long appID = ;
-        String appSign = ;
-        String userID = Build.MANUFACTURER + "_" + generateUserID();
+        String appSign = "";
+
+        String userID = generateUserID();
         String userName = userID + "_Name";
         String roomID = "test_room_id";
 
